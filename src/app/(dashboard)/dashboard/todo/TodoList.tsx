@@ -7,7 +7,7 @@ import { status } from '@/constants/data';
 import { Status } from '@/interface/status';
 import { useTodoStore } from '@/store/store';
 import { motion } from 'framer-motion';
-import { ChevronDown, Filter, Trash } from 'lucide-react';
+import { Filter, Trash } from 'lucide-react';
 import Image from 'next/image';
 import React, { useEffect } from 'react';
 import { CreateTodo } from './CreateTodo';

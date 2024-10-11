@@ -5,9 +5,8 @@ import { Pie, PieChart } from "recharts"
 import {
     Card,
     CardContent,
-    CardDescription,
     CardHeader,
-    CardTitle,
+    CardTitle
 } from "@/components/ui/card"
 import {
     ChartConfig,

@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 import { cn } from '@/lib/utils';
-import { NavItem } from '@/types';
 import { Dispatch, SetStateAction } from 'react';
 import { useSidebar } from '@/hooks/useSidebar';
 import {
@@ -14,6 +13,7 @@ import {
   TooltipTrigger
 } from '../ui/tooltip';
 import { Icons } from '../icons';
+import { NavItem } from '@/interface/nav-types';
 
 interface DashboardNavProps {
   items: NavItem[];

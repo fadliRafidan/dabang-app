@@ -8,7 +8,6 @@ import {
     TableRow
 } from "@/components/ui/table"
 import { Progress } from '../ui/progress'
-import { cn } from '@/lib/utils'
 
 const productTop = [
     {

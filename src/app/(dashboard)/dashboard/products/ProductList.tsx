@@ -1,7 +1,6 @@
 'use client'
 import { Skeleton } from '@/components/ui/skeleton';
 import { useToast } from '@/hooks/use-toast';
-import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
 type CategoryProps = {
@@ -46,10 +45,9 @@ export default function ProductList() {
                 //     const uniqueProducts = data.filter((prod: ProductProps) => !existingIds.has(prod.id));
                 //     return [...prevProducts, ...uniqueProducts];
                 // });
-
                 setPage(prevPage => prevPage + 1)
             }
-        } catch (error) {
+        } catch {
             toast({
                 variant: "destructive",
                 title: "Uh oh! Something went wrong.",
