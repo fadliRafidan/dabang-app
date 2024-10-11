@@ -94,14 +94,14 @@ export const useTodoStore = create<TodoStore>()(
 
 ### **Gambar**
 
-- **[DASHBOARD](https://www.fadli-rafidan.dev/dashboard)**
+- **[DASHBOARD (TUGAS 1)](https://www.fadli-rafidan.dev/dashboard)**
 
 ![alt text](https://github.com/fadliRafidan/dabang-app/blob/main/image-dashboard.png?raw=true)
 
-- **[PRODUCTS](https://www.fadli-rafidan.dev/dashboard/products)**
+- **[PRODUCTS (TUGAS 2)](https://www.fadli-rafidan.dev/dashboard/products)**
 
 ![alt text](https://github.com/fadliRafidan/dabang-app/blob/main/image-products.png?raw=true)
 
-- **[TODO](https://www.fadli-rafidan.dev/dashboard/todo)**
+- **[TODO (TUGAS 3)](https://www.fadli-rafidan.dev/dashboard/todo)**
 
 ![alt text](https://github.com/fadliRafidan/dabang-app/blob/main/image-todo.png?raw=true)
